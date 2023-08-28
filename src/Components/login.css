@@ -1,0 +1,13 @@
+.errmsg {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    color: red;
+}
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}

@@ -1,0 +1,38 @@
+
+
+ 
+ .errmsg {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    color: red;
+}
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+.valid{
+    display: flex;
+    justify-content: left;
+    
+}
+.hide{
+    display: none;
+}
+.instructions {
+    display: flex;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
