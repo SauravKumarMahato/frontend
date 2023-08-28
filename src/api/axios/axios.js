@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = 'http://127.0.0.1:7070';
+const BASE_URL = 'http://gxarerkpceldejv.bct.itclub.pp.ua';
 export default axios.create({
     baseURL:BASE_URL
 });

@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port that the React app will run on
-EXPOSE 2020
+EXPOSE 2021
 
 # Start the React app
 CMD ["npm", "start"]
